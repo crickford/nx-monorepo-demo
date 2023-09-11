@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@hackdata/common-ui": ["libs/common-ui/src/index.ts"],
+      "@hackdata/equipment-types": ["libs/equipment-types/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
