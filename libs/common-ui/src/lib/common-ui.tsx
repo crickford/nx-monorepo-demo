@@ -1,17 +1,13 @@
-import styled from 'styled-components';
+import styles from './common-ui.module.css';
 
 /* eslint-disable-next-line */
 export interface CommonUiProps {}
 
-const StyledCommonUi = styled.div`
-  color: pink;
-`;
-
 export function CommonUi(props: CommonUiProps) {
   return (
-    <StyledCommonUi>
+    <div className={styles['container']}>
       <h1>Welcome to CommonUi!</h1>
-    </StyledCommonUi>
+    </div>
   );
 }
 
